@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93c54e39aecad5741984a1ecb1be1ec5, type: 3}
+  m_Name: Telekinesis
+  m_EditorClassIdentifier: 
+  magicType: 1
+  magicTier: 3
+  spellName: Telekinesis
+  spellDescription: Move objects using pure magic
+  effects:
+  - {fileID: 11400000, guid: 639cffa9133de934fa7351202be44953, type: 2}
+  castDuration: 0.01
+  cooldownDuration: 0.5
